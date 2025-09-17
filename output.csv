@@ -1,0 +1,670 @@
+id,price,district,rooms,area,seller_type
+1,1199000,Grunwald,3,63.54,Oferta prywatna
+2,405000,Stare Miasto,2,30,Oferta prywatna
+3,679000,Stare Miasto,4,64.9,Oferta prywatna
+4,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+5,650000,Stare Miasto,3,53,Oferta prywatna
+6,,Stare Miasto,3,85.62,Deweloper
+7,1150000,Grunwald,4,140.19,Biuro nieruchomości
+8,450112,Nowe Miasto,2,43,Biuro nieruchomości
+9,,Wilda,2,72.1,
+10,550000,Stare Miasto,2,29.7,Oferta prywatna
+11,459000,Jeżyce,2,37,Biuro nieruchomości
+12,,Nowe Miasto,1,59.09,
+13,,Jeżyce,4,59.48,
+14,579000,Grunwald,3,53,Biuro nieruchomości
+15,439000,Jeżyce,2,35.22,Biuro nieruchomości
+16,727600,Jeżyce,3,68.7,Biuro nieruchomości
+17,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+18,719000,Jeżyce,3,61.13,Biuro nieruchomości
+19,,Grunwald,3,76.7,
+20,499000,Jeżyce,2,43.6,Biuro nieruchomości
+21,,Nowe Miasto,3,54.73,
+22,365000,Grunwald,1,27,Oferta prywatna
+23,370000,Wilda,1,23.5,Oferta prywatna
+24,570000,Jeżyce,2,46,Biuro nieruchomości
+25,799890,Jeżyce,4,72,Biuro nieruchomości
+26,499890,Jeżyce,2,41,Biuro nieruchomości
+27,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+28,569900,Jeżyce,2,46,Biuro nieruchomości
+29,619000,Wilda,3,50,Biuro nieruchomości
+30,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+31,589351,Nowe Miasto,4,57.08,Biuro nieruchomości
+32,589000,Grunwald,2,47.2,Oferta prywatna
+33,1750000,Nowe Miasto,5,100.59,Oferta prywatna
+34,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+35,650000,Stare Miasto,3,53,Oferta prywatna
+36,,Stare Miasto,3,85.62,Deweloper
+37,1150000,Grunwald,4,140.19,Biuro nieruchomości
+38,450112,Nowe Miasto,2,43,Biuro nieruchomości
+39,,Wilda,2,72.1,
+40,550000,Stare Miasto,2,29.7,Oferta prywatna
+41,459000,Jeżyce,2,37,Biuro nieruchomości
+42,,Nowe Miasto,1,59.09,
+43,,Jeżyce,4,59.48,
+44,579000,Grunwald,3,53,Biuro nieruchomości
+45,439000,Jeżyce,2,35.22,Biuro nieruchomości
+46,727600,Jeżyce,3,68.7,Biuro nieruchomości
+47,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+48,719000,Jeżyce,3,61.13,Biuro nieruchomości
+49,,Grunwald,3,76.7,
+50,499000,Jeżyce,2,43.6,Biuro nieruchomości
+51,,Nowe Miasto,3,54.73,
+52,365000,Grunwald,1,27,Oferta prywatna
+53,370000,Wilda,1,23.5,Oferta prywatna
+54,570000,Jeżyce,2,46,Biuro nieruchomości
+55,799890,Jeżyce,4,72,Biuro nieruchomości
+56,499890,Jeżyce,2,41,Biuro nieruchomości
+57,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+58,569900,Jeżyce,2,46,Biuro nieruchomości
+59,619000,Wilda,3,50,Biuro nieruchomości
+60,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+61,750000,Jeżyce,3,49,Biuro nieruchomości
+62,865000,Jeżyce,3,72.28,Biuro nieruchomości
+63,599000,Nowe Miasto,3,53.5,Biuro nieruchomości
+64,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+65,650000,Stare Miasto,3,53,Oferta prywatna
+66,,Stare Miasto,3,85.62,Deweloper
+67,1150000,Grunwald,4,140.19,Biuro nieruchomości
+68,450112,Nowe Miasto,2,43,Biuro nieruchomości
+69,,Wilda,2,72.1,
+70,550000,Stare Miasto,2,29.7,Oferta prywatna
+71,459000,Jeżyce,2,37,Biuro nieruchomości
+72,,Nowe Miasto,1,59.09,
+73,,Jeżyce,4,59.48,
+74,579000,Grunwald,3,53,Biuro nieruchomości
+75,439000,Jeżyce,2,35.22,Biuro nieruchomości
+76,727600,Jeżyce,3,68.7,Biuro nieruchomości
+77,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+78,719000,Jeżyce,3,61.13,Biuro nieruchomości
+79,,Grunwald,3,76.7,
+80,499000,Jeżyce,2,43.6,Biuro nieruchomości
+81,,Nowe Miasto,3,54.73,
+82,365000,Grunwald,1,27,Oferta prywatna
+83,370000,Wilda,1,23.5,Oferta prywatna
+84,570000,Jeżyce,2,46,Biuro nieruchomości
+85,799890,Jeżyce,4,72,Biuro nieruchomości
+86,499890,Jeżyce,2,41,Biuro nieruchomości
+87,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+88,569900,Jeżyce,2,46,Biuro nieruchomości
+89,619000,Wilda,3,50,Biuro nieruchomości
+90,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+91,640000,Stare Miasto,2,40.81,Biuro nieruchomości
+92,880000,Grunwald,2,78,Oferta prywatna
+93,449000,Nowe Miasto,2,43,Biuro nieruchomości
+94,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+95,650000,Stare Miasto,3,53,Oferta prywatna
+96,,Stare Miasto,3,85.62,Deweloper
+97,1150000,Grunwald,4,140.19,Biuro nieruchomości
+98,450112,Nowe Miasto,2,43,Biuro nieruchomości
+99,,Wilda,2,72.1,
+100,550000,Stare Miasto,2,29.7,Oferta prywatna
+101,459000,Jeżyce,2,37,Biuro nieruchomości
+102,,Nowe Miasto,1,59.09,
+103,,Jeżyce,4,59.48,
+104,579000,Grunwald,3,53,Biuro nieruchomości
+105,439000,Jeżyce,2,35.22,Biuro nieruchomości
+106,727600,Jeżyce,3,68.7,Biuro nieruchomości
+107,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+108,719000,Jeżyce,3,61.13,Biuro nieruchomości
+109,,Grunwald,3,76.7,
+110,499000,Jeżyce,2,43.6,Biuro nieruchomości
+111,,Nowe Miasto,3,54.73,
+112,365000,Grunwald,1,27,Oferta prywatna
+113,370000,Wilda,1,23.5,Oferta prywatna
+114,570000,Jeżyce,2,46,Biuro nieruchomości
+115,799890,Jeżyce,4,72,Biuro nieruchomości
+116,499890,Jeżyce,2,41,Biuro nieruchomości
+117,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+118,569900,Jeżyce,2,46,Biuro nieruchomości
+119,619000,Wilda,3,50,Biuro nieruchomości
+120,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+121,827320,Grunwald,2,61.4,Oferta prywatna
+122,1650000,Grunwald,4,121,Oferta prywatna
+123,799000,Stare Miasto,3,64.8,Oferta prywatna
+124,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+125,650000,Stare Miasto,3,53,Oferta prywatna
+126,,Stare Miasto,3,85.62,Deweloper
+127,1150000,Grunwald,4,140.19,Biuro nieruchomości
+128,450112,Nowe Miasto,2,43,Biuro nieruchomości
+129,,Wilda,2,72.1,
+130,550000,Stare Miasto,2,29.7,Oferta prywatna
+131,459000,Jeżyce,2,37,Biuro nieruchomości
+132,,Nowe Miasto,1,59.09,
+133,,Jeżyce,4,59.48,
+134,579000,Grunwald,3,53,Biuro nieruchomości
+135,439000,Jeżyce,2,35.22,Biuro nieruchomości
+136,727600,Jeżyce,3,68.7,Biuro nieruchomości
+137,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+138,719000,Jeżyce,3,61.13,Biuro nieruchomości
+139,,Grunwald,3,76.7,
+140,499000,Jeżyce,2,43.6,Biuro nieruchomości
+141,,Nowe Miasto,3,54.73,
+142,365000,Grunwald,1,27,Oferta prywatna
+143,370000,Wilda,1,23.5,Oferta prywatna
+144,570000,Jeżyce,2,46,Biuro nieruchomości
+145,799890,Jeżyce,4,72,Biuro nieruchomości
+146,499890,Jeżyce,2,41,Biuro nieruchomości
+147,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+148,569900,Jeżyce,2,46,Biuro nieruchomości
+149,619000,Wilda,3,50,Biuro nieruchomości
+150,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+151,640000,Stare Miasto,2,40.81,Biuro nieruchomości
+152,1055437.5,Wilda,3,81.25,Biuro nieruchomości
+153,524000,Stare Miasto,3,65.6,Oferta prywatna
+154,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+155,650000,Stare Miasto,3,53,Oferta prywatna
+156,,Stare Miasto,3,85.62,Deweloper
+157,1150000,Grunwald,4,140.19,Biuro nieruchomości
+158,450112,Nowe Miasto,2,43,Biuro nieruchomości
+159,,Wilda,2,72.1,
+160,550000,Stare Miasto,2,29.7,Oferta prywatna
+161,459000,Jeżyce,2,37,Biuro nieruchomości
+162,,Nowe Miasto,1,59.09,
+163,,Jeżyce,4,59.48,
+164,579000,Grunwald,3,53,Biuro nieruchomości
+165,439000,Jeżyce,2,35.22,Biuro nieruchomości
+166,727600,Jeżyce,3,68.7,Biuro nieruchomości
+167,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+168,719000,Jeżyce,3,61.13,Biuro nieruchomości
+169,,Grunwald,3,76.7,
+170,499000,Jeżyce,2,43.6,Biuro nieruchomości
+171,,Nowe Miasto,3,54.73,
+172,365000,Grunwald,1,27,Oferta prywatna
+173,370000,Wilda,1,23.5,Oferta prywatna
+174,570000,Jeżyce,2,46,Biuro nieruchomości
+175,799890,Jeżyce,4,72,Biuro nieruchomości
+176,499890,Jeżyce,2,41,Biuro nieruchomości
+177,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+178,569900,Jeżyce,2,46,Biuro nieruchomości
+179,619000,Wilda,3,50,Biuro nieruchomości
+180,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+181,560000,Stare Miasto,2,49.76,Oferta prywatna
+182,799000,Stare Miasto,3,64.8,Oferta prywatna
+183,499000,Stare Miasto,1,28.5,Oferta prywatna
+184,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+185,650000,Stare Miasto,3,53,Oferta prywatna
+186,,Stare Miasto,3,85.62,Deweloper
+187,1150000,Grunwald,4,140.19,Biuro nieruchomości
+188,450112,Nowe Miasto,2,43,Biuro nieruchomości
+189,,Wilda,2,72.1,
+190,550000,Stare Miasto,2,29.7,Oferta prywatna
+191,459000,Jeżyce,2,37,Biuro nieruchomości
+192,,Nowe Miasto,1,59.09,
+193,,Jeżyce,4,59.48,
+194,579000,Grunwald,3,53,Biuro nieruchomości
+195,439000,Jeżyce,2,35.22,Biuro nieruchomości
+196,727600,Jeżyce,3,68.7,Biuro nieruchomości
+197,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+198,719000,Jeżyce,3,61.13,Biuro nieruchomości
+199,,Grunwald,3,76.7,
+200,499000,Jeżyce,2,43.6,Biuro nieruchomości
+201,,Nowe Miasto,3,54.73,
+202,365000,Grunwald,1,27,Oferta prywatna
+203,370000,Wilda,1,23.5,Oferta prywatna
+204,570000,Jeżyce,2,46,Biuro nieruchomości
+205,799890,Jeżyce,4,72,Biuro nieruchomości
+206,499890,Jeżyce,2,41,Biuro nieruchomości
+207,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+208,569900,Jeżyce,2,46,Biuro nieruchomości
+209,619000,Wilda,3,50,Biuro nieruchomości
+210,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+211,599900,Jeżyce,3,50.19,Oferta prywatna
+212,649000,Grunwald,2,50,Oferta prywatna
+213,520000,Wilda,3,42,Oferta prywatna
+214,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+215,650000,Stare Miasto,3,53,Oferta prywatna
+216,,Stare Miasto,3,85.62,Deweloper
+217,1150000,Grunwald,4,140.19,Biuro nieruchomości
+218,450112,Nowe Miasto,2,43,Biuro nieruchomości
+219,,Wilda,2,72.1,
+220,550000,Stare Miasto,2,29.7,Oferta prywatna
+221,459000,Jeżyce,2,37,Biuro nieruchomości
+222,,Nowe Miasto,1,59.09,
+223,,Jeżyce,4,59.48,
+224,579000,Grunwald,3,53,Biuro nieruchomości
+225,439000,Jeżyce,2,35.22,Biuro nieruchomości
+226,727600,Jeżyce,3,68.7,Biuro nieruchomości
+227,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+228,719000,Jeżyce,3,61.13,Biuro nieruchomości
+229,,Grunwald,3,76.7,
+230,499000,Jeżyce,2,43.6,Biuro nieruchomości
+231,,Nowe Miasto,3,54.73,
+232,365000,Grunwald,1,27,Oferta prywatna
+233,370000,Wilda,1,23.5,Oferta prywatna
+234,570000,Jeżyce,2,46,Biuro nieruchomości
+235,799890,Jeżyce,4,72,Biuro nieruchomości
+236,499890,Jeżyce,2,41,Biuro nieruchomości
+237,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+238,569900,Jeżyce,2,46,Biuro nieruchomości
+239,619000,Wilda,3,50,Biuro nieruchomości
+240,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+241,599900,Jeżyce,3,50.19,Oferta prywatna
+242,479000,Grunwald,2,42.8,
+243,694053.36,Grunwald,3,57.2,
+244,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+245,650000,Stare Miasto,3,53,Oferta prywatna
+246,,Stare Miasto,3,85.62,Deweloper
+247,1150000,Grunwald,4,140.19,Biuro nieruchomości
+248,450112,Nowe Miasto,2,43,Biuro nieruchomości
+249,,Wilda,2,72.1,
+250,550000,Stare Miasto,2,29.7,Oferta prywatna
+251,459000,Jeżyce,2,37,Biuro nieruchomości
+252,,Nowe Miasto,1,59.09,
+253,,Jeżyce,4,59.48,
+254,579000,Grunwald,3,53,Biuro nieruchomości
+255,439000,Jeżyce,2,35.22,Biuro nieruchomości
+256,727600,Jeżyce,3,68.7,Biuro nieruchomości
+257,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+258,719000,Jeżyce,3,61.13,Biuro nieruchomości
+259,,Grunwald,3,76.7,
+260,499000,Jeżyce,2,43.6,Biuro nieruchomości
+261,,Nowe Miasto,3,54.73,
+262,365000,Grunwald,1,27,Oferta prywatna
+263,370000,Wilda,1,23.5,Oferta prywatna
+264,570000,Jeżyce,2,46,Biuro nieruchomości
+265,799890,Jeżyce,4,72,Biuro nieruchomości
+266,499890,Jeżyce,2,41,Biuro nieruchomości
+267,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+268,569900,Jeżyce,2,46,Biuro nieruchomości
+269,619000,Wilda,3,50,Biuro nieruchomości
+270,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+271,429000,Wilda,2,38,Biuro nieruchomości
+272,569900,Grunwald,3,49.3,Oferta prywatna
+273,722709.54,Grunwald,3,63.8,
+274,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+275,650000,Stare Miasto,3,53,Oferta prywatna
+276,,Stare Miasto,3,85.62,Deweloper
+277,1150000,Grunwald,4,140.19,Biuro nieruchomości
+278,450112,Nowe Miasto,2,43,Biuro nieruchomości
+279,,Wilda,2,72.1,
+280,550000,Stare Miasto,2,29.7,Oferta prywatna
+281,459000,Jeżyce,2,37,Biuro nieruchomości
+282,,Nowe Miasto,1,59.09,
+283,,Jeżyce,4,59.48,
+284,579000,Grunwald,3,53,Biuro nieruchomości
+285,439000,Jeżyce,2,35.22,Biuro nieruchomości
+286,727600,Jeżyce,3,68.7,Biuro nieruchomości
+287,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+288,719000,Jeżyce,3,61.13,Biuro nieruchomości
+289,,Grunwald,3,76.7,
+290,499000,Jeżyce,2,43.6,Biuro nieruchomości
+291,,Nowe Miasto,3,54.73,
+292,365000,Grunwald,1,27,Oferta prywatna
+293,370000,Wilda,1,23.5,Oferta prywatna
+294,570000,Jeżyce,2,46,Biuro nieruchomości
+295,799890,Jeżyce,4,72,Biuro nieruchomości
+296,499890,Jeżyce,2,41,Biuro nieruchomości
+297,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+298,569900,Jeżyce,2,46,Biuro nieruchomości
+299,619000,Wilda,3,50,Biuro nieruchomości
+300,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+301,469000,Nowe Miasto,3,68.13,Deweloper
+302,890000,Stare Miasto,4,92.8,Oferta prywatna
+303,560000,Nowe Miasto,3,63.7,Oferta prywatna
+304,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+305,650000,Stare Miasto,3,53,Oferta prywatna
+306,,Stare Miasto,3,85.62,Deweloper
+307,1150000,Grunwald,4,140.19,Biuro nieruchomości
+308,450112,Nowe Miasto,2,43,Biuro nieruchomości
+309,,Wilda,2,72.1,
+310,550000,Stare Miasto,2,29.7,Oferta prywatna
+311,459000,Jeżyce,2,37,Biuro nieruchomości
+312,,Nowe Miasto,1,59.09,
+313,,Jeżyce,4,59.48,
+314,579000,Grunwald,3,53,Biuro nieruchomości
+315,439000,Jeżyce,2,35.22,Biuro nieruchomości
+316,727600,Jeżyce,3,68.7,Biuro nieruchomości
+317,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+318,719000,Jeżyce,3,61.13,Biuro nieruchomości
+319,,Grunwald,3,76.7,
+320,499000,Jeżyce,2,43.6,Biuro nieruchomości
+321,,Nowe Miasto,3,54.73,
+322,365000,Grunwald,1,27,Oferta prywatna
+323,370000,Wilda,1,23.5,Oferta prywatna
+324,570000,Jeżyce,2,46,Biuro nieruchomości
+325,799890,Jeżyce,4,72,Biuro nieruchomości
+326,499890,Jeżyce,2,41,Biuro nieruchomości
+327,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+328,569900,Jeżyce,2,46,Biuro nieruchomości
+329,619000,Wilda,3,50,Biuro nieruchomości
+330,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+331,549000,Grunwald,2,49,Oferta prywatna
+332,405000,Stare Miasto,2,30,Oferta prywatna
+333,1270000,Nowe Miasto,4,94.1,Oferta prywatna
+334,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+335,650000,Stare Miasto,3,53,Oferta prywatna
+336,,Stare Miasto,3,85.62,Deweloper
+337,1150000,Grunwald,4,140.19,Biuro nieruchomości
+338,450112,Nowe Miasto,2,43,Biuro nieruchomości
+339,,Wilda,2,72.1,
+340,550000,Stare Miasto,2,29.7,Oferta prywatna
+341,459000,Jeżyce,2,37,Biuro nieruchomości
+342,,Nowe Miasto,1,59.09,
+343,,Jeżyce,4,59.48,
+344,579000,Grunwald,3,53,Biuro nieruchomości
+345,439000,Jeżyce,2,35.22,Biuro nieruchomości
+346,727600,Jeżyce,3,68.7,Biuro nieruchomości
+347,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+348,719000,Jeżyce,3,61.13,Biuro nieruchomości
+349,,Grunwald,3,76.7,
+350,499000,Jeżyce,2,43.6,Biuro nieruchomości
+351,,Nowe Miasto,3,54.73,
+352,365000,Grunwald,1,27,Oferta prywatna
+353,370000,Wilda,1,23.5,Oferta prywatna
+354,570000,Jeżyce,2,46,Biuro nieruchomości
+355,799890,Jeżyce,4,72,Biuro nieruchomości
+356,499890,Jeżyce,2,41,Biuro nieruchomości
+357,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+358,569900,Jeżyce,2,46,Biuro nieruchomości
+359,619000,Wilda,3,50,Biuro nieruchomości
+360,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+361,465000,Stare Miasto,2,49,Oferta prywatna
+362,449144,Grunwald,2,33.64,
+363,1380000,Jeżyce,4,103,Biuro nieruchomości
+364,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+365,650000,Stare Miasto,3,53,Oferta prywatna
+366,,Stare Miasto,3,85.62,Deweloper
+367,1150000,Grunwald,4,140.19,Biuro nieruchomości
+368,450112,Nowe Miasto,2,43,Biuro nieruchomości
+369,,Wilda,2,72.1,
+370,550000,Stare Miasto,2,29.7,Oferta prywatna
+371,459000,Jeżyce,2,37,Biuro nieruchomości
+372,,Nowe Miasto,1,59.09,
+373,,Jeżyce,4,59.48,
+374,579000,Grunwald,3,53,Biuro nieruchomości
+375,439000,Jeżyce,2,35.22,Biuro nieruchomości
+376,727600,Jeżyce,3,68.7,Biuro nieruchomości
+377,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+378,719000,Jeżyce,3,61.13,Biuro nieruchomości
+379,,Grunwald,3,76.7,
+380,499000,Jeżyce,2,43.6,Biuro nieruchomości
+381,,Nowe Miasto,3,54.73,
+382,365000,Grunwald,1,27,Oferta prywatna
+383,370000,Wilda,1,23.5,Oferta prywatna
+384,570000,Jeżyce,2,46,Biuro nieruchomości
+385,799890,Jeżyce,4,72,Biuro nieruchomości
+386,499890,Jeżyce,2,41,Biuro nieruchomości
+387,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+388,569900,Jeżyce,2,46,Biuro nieruchomości
+389,619000,Wilda,3,50,Biuro nieruchomości
+390,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+391,1119000,Wilda,3,60,Oferta prywatna
+392,600000,Stare Miasto,3,57.7,Oferta prywatna
+393,335000,Grunwald,1,27,Oferta prywatna
+394,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+395,650000,Stare Miasto,3,53,Oferta prywatna
+396,,Stare Miasto,3,85.62,Deweloper
+397,1150000,Grunwald,4,140.19,Biuro nieruchomości
+398,450112,Nowe Miasto,2,43,Biuro nieruchomości
+399,,Wilda,2,72.1,
+400,550000,Stare Miasto,2,29.7,Oferta prywatna
+401,459000,Jeżyce,2,37,Biuro nieruchomości
+402,,Nowe Miasto,1,59.09,
+403,,Jeżyce,4,59.48,
+404,579000,Grunwald,3,53,Biuro nieruchomości
+405,439000,Jeżyce,2,35.22,Biuro nieruchomości
+406,727600,Jeżyce,3,68.7,Biuro nieruchomości
+407,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+408,719000,Jeżyce,3,61.13,Biuro nieruchomości
+409,,Grunwald,3,76.7,
+410,499000,Jeżyce,2,43.6,Biuro nieruchomości
+411,,Nowe Miasto,3,54.73,
+412,365000,Grunwald,1,27,Oferta prywatna
+413,370000,Wilda,1,23.5,Oferta prywatna
+414,570000,Jeżyce,2,46,Biuro nieruchomości
+415,799890,Jeżyce,4,72,Biuro nieruchomości
+416,499890,Jeżyce,2,41,Biuro nieruchomości
+417,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+418,569900,Jeżyce,2,46,Biuro nieruchomości
+419,619000,Wilda,3,50,Biuro nieruchomości
+420,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+421,865000,Jeżyce,3,72.28,Biuro nieruchomości
+422,695900,Wilda,2,55.06,Oferta prywatna
+423,1150000,Jeżyce,3,72,Oferta prywatna
+424,1290000,Jeżyce,5,123,Oferta prywatna
+425,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+426,650000,Stare Miasto,3,53,Oferta prywatna
+427,,Stare Miasto,3,85.62,Deweloper
+428,1150000,Grunwald,4,140.19,Biuro nieruchomości
+429,450112,Nowe Miasto,2,43,Biuro nieruchomości
+430,,Wilda,2,72.1,
+431,550000,Stare Miasto,2,29.7,Oferta prywatna
+432,459000,Jeżyce,2,37,Biuro nieruchomości
+433,,Nowe Miasto,1,59.09,
+434,,Jeżyce,4,59.48,
+435,579000,Grunwald,3,53,Biuro nieruchomości
+436,439000,Jeżyce,2,35.22,Biuro nieruchomości
+437,727600,Jeżyce,3,68.7,Biuro nieruchomości
+438,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+439,719000,Jeżyce,3,61.13,Biuro nieruchomości
+440,,Grunwald,3,76.7,
+441,499000,Jeżyce,2,43.6,Biuro nieruchomości
+442,,Nowe Miasto,3,54.73,
+443,365000,Grunwald,1,27,Oferta prywatna
+444,370000,Wilda,1,23.5,Oferta prywatna
+445,570000,Jeżyce,2,46,Biuro nieruchomości
+446,799890,Jeżyce,4,72,Biuro nieruchomości
+447,499890,Jeżyce,2,41,Biuro nieruchomości
+448,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+449,569900,Jeżyce,2,46,Biuro nieruchomości
+450,1290000,Jeżyce,5,123,Oferta prywatna
+451,650000,Stare Miasto,3,53,Oferta prywatna
+452,,Nowe Miasto,2,39.98,
+453,899000,Stare Miasto,4,121.54,Biuro nieruchomości
+454,499000,Nowe Miasto,2,49,Biuro nieruchomości
+455,1290000,Jeżyce,5,123,Oferta prywatna
+456,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+457,650000,Stare Miasto,3,53,Oferta prywatna
+458,,Stare Miasto,3,85.62,Deweloper
+459,1150000,Grunwald,4,140.19,Biuro nieruchomości
+460,450112,Nowe Miasto,2,43,Biuro nieruchomości
+461,,Wilda,2,72.1,
+462,550000,Stare Miasto,2,29.7,Oferta prywatna
+463,459000,Jeżyce,2,37,Biuro nieruchomości
+464,,Nowe Miasto,1,59.09,
+465,,Jeżyce,4,59.48,
+466,579000,Grunwald,3,53,Biuro nieruchomości
+467,439000,Jeżyce,2,35.22,Biuro nieruchomości
+468,727600,Jeżyce,3,68.7,Biuro nieruchomości
+469,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+470,719000,Jeżyce,3,61.13,Biuro nieruchomości
+471,,Grunwald,3,76.7,
+472,499000,Jeżyce,2,43.6,Biuro nieruchomości
+473,,Nowe Miasto,3,54.73,
+474,365000,Grunwald,1,27,Oferta prywatna
+475,370000,Wilda,1,23.5,Oferta prywatna
+476,570000,Jeżyce,2,46,Biuro nieruchomości
+477,799890,Jeżyce,4,72,Biuro nieruchomości
+478,499890,Jeżyce,2,41,Biuro nieruchomości
+479,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+480,499000,Nowe Miasto,2,49,Biuro nieruchomości
+481,657000,Nowe Miasto,2,53,Oferta prywatna
+482,1109000,Grunwald,4,100.23,Oferta prywatna
+483,,Stare Miasto,1,48.39,
+484,499000,Nowe Miasto,2,49,Biuro nieruchomości
+485,1290000,Jeżyce,5,123,Oferta prywatna
+486,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+487,650000,Stare Miasto,3,53,Oferta prywatna
+488,,Stare Miasto,3,85.62,Deweloper
+489,1150000,Grunwald,4,140.19,Biuro nieruchomości
+490,450112,Nowe Miasto,2,43,Biuro nieruchomości
+491,,Wilda,2,72.1,
+492,550000,Stare Miasto,2,29.7,Oferta prywatna
+493,459000,Jeżyce,2,37,Biuro nieruchomości
+494,,Nowe Miasto,1,59.09,
+495,,Jeżyce,4,59.48,
+496,579000,Grunwald,3,53,Biuro nieruchomości
+497,439000,Jeżyce,2,35.22,Biuro nieruchomości
+498,727600,Jeżyce,3,68.7,Biuro nieruchomości
+499,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+500,719000,Jeżyce,3,61.13,Biuro nieruchomości
+501,,Grunwald,3,76.7,
+502,499000,Jeżyce,2,43.6,Biuro nieruchomości
+503,,Nowe Miasto,3,54.73,
+504,365000,Grunwald,1,27,Oferta prywatna
+505,370000,Wilda,1,23.5,Oferta prywatna
+506,570000,Jeżyce,2,46,Biuro nieruchomości
+507,799890,Jeżyce,4,72,Biuro nieruchomości
+508,499890,Jeżyce,2,41,Biuro nieruchomości
+509,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+510,499000,Nowe Miasto,2,49,Biuro nieruchomości
+511,519000,Jeżyce,2,36,Oferta prywatna
+512,420000,Wilda,2,42.8,Oferta prywatna
+513,749000,Wilda,3,54.5,Oferta prywatna
+514,499000,Nowe Miasto,2,49,Biuro nieruchomości
+515,1290000,Jeżyce,5,123,Oferta prywatna
+516,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+517,650000,Stare Miasto,3,53,Oferta prywatna
+518,,Stare Miasto,3,85.62,Deweloper
+519,1150000,Grunwald,4,140.19,Biuro nieruchomości
+520,450112,Nowe Miasto,2,43,Biuro nieruchomości
+521,,Wilda,2,72.1,
+522,550000,Stare Miasto,2,29.7,Oferta prywatna
+523,459000,Jeżyce,2,37,Biuro nieruchomości
+524,,Nowe Miasto,1,59.09,
+525,,Jeżyce,4,59.48,
+526,579000,Grunwald,3,53,Biuro nieruchomości
+527,439000,Jeżyce,2,35.22,Biuro nieruchomości
+528,727600,Jeżyce,3,68.7,Biuro nieruchomości
+529,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+530,719000,Jeżyce,3,61.13,Biuro nieruchomości
+531,,Grunwald,3,76.7,
+532,499000,Jeżyce,2,43.6,Biuro nieruchomości
+533,,Nowe Miasto,3,54.73,
+534,365000,Grunwald,1,27,Oferta prywatna
+535,370000,Wilda,1,23.5,Oferta prywatna
+536,570000,Jeżyce,2,46,Biuro nieruchomości
+537,799890,Jeżyce,4,72,Biuro nieruchomości
+538,499890,Jeżyce,2,41,Biuro nieruchomości
+539,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+540,499000,Nowe Miasto,2,49,Biuro nieruchomości
+541,970000,Grunwald,3,87,Oferta prywatna
+542,695900,Wilda,2,55.06,Oferta prywatna
+543,540012,Jeżyce,2,40.91,
+544,499000,Nowe Miasto,2,49,Biuro nieruchomości
+545,1290000,Jeżyce,5,123,Oferta prywatna
+546,425000,Stare Miasto,1,29.2,Biuro nieruchomości
+547,650000,Stare Miasto,3,53,Oferta prywatna
+548,,Stare Miasto,3,85.62,Deweloper
+549,1150000,Grunwald,4,140.19,Biuro nieruchomości
+550,450112,Nowe Miasto,2,43,Biuro nieruchomości
+551,,Wilda,2,72.1,
+552,550000,Stare Miasto,2,29.7,Oferta prywatna
+553,459000,Jeżyce,2,37,Biuro nieruchomości
+554,,Nowe Miasto,1,59.09,
+555,,Jeżyce,4,59.48,
+556,579000,Grunwald,3,53,Biuro nieruchomości
+557,439000,Jeżyce,2,35.22,Biuro nieruchomości
+558,727600,Jeżyce,3,68.7,Biuro nieruchomości
+559,585000,Nowe Miasto,3,47.2,Biuro nieruchomości
+560,719000,Jeżyce,3,61.13,Biuro nieruchomości
+561,,Grunwald,3,76.7,
+562,499000,Jeżyce,2,43.6,Biuro nieruchomości
+563,,Nowe Miasto,3,54.73,
+564,365000,Grunwald,1,27,Oferta prywatna
+565,370000,Wilda,1,23.5,Oferta prywatna
+566,570000,Jeżyce,2,46,Biuro nieruchomości
+567,799890,Jeżyce,4,72,Biuro nieruchomości
+568,499890,Jeżyce,2,41,Biuro nieruchomości
+569,435764,Nowe Miasto,3,53.68,Biuro nieruchomości
+570,499000,Nowe Miasto,2,49,Biuro nieruchomości
+571,475592,Nowe Miasto,2,43.05,Biuro nieruchomości
+572,462500,Grunwald,2,37,Oferta prywatna
+573,660000,Stare Miasto,2,49.7,Oferta prywatna
+574,,Grunwald,2,82.86,
+575,777000,Grunwald,2,80,Oferta prywatna
+576,,Nowe Miasto,2,52.1,
+577,629000,Stare Miasto,4,68,Biuro nieruchomości
+578,,Nowe Miasto,2,39.67,
+579,429000,Stare Miasto,2,37.82,Biuro nieruchomości
+580,303100,Stare Miasto,1,27.29,Biuro nieruchomości
+581,529800,Grunwald,6,75,Biuro nieruchomości
+582,538220,Jeżyce,2,41.84,Biuro nieruchomości
+583,599254,Stare Miasto,2,42.5,Biuro nieruchomości
+584,,Jeżyce,2,73.73,
+585,429000,Wilda,3,45,Biuro nieruchomości
+586,690000,Jeżyce,3,74,Oferta prywatna
+587,620000,Grunwald,3,64,Oferta prywatna
+588,855600,Stare Miasto,1,58.17,
+589,484725,Stare Miasto,2,42.15,Biuro nieruchomości
+590,589000,Nowe Miasto,3,48,Biuro nieruchomości
+591,465000,Grunwald,2,38,Biuro nieruchomości
+592,485775,Stare Miasto,2,38.25,Biuro nieruchomości
+593,405103,Jeżyce,1,30.09,Biuro nieruchomości
+594,,Jeżyce,1,54.92,
+595,1380000,Nowe Miasto,4,80.1,Biuro nieruchomości
+596,325000,Grunwald,1,26.01,Biuro nieruchomości
+597,,Jeżyce,2,35.36,
+598,675984,Stare Miasto,3,66.26,
+599,778680,Grunwald,1,41.2,
+600,1668594,Grunwald,4,89.99,
+601,572850,Nowe Miasto,3,57,
+602,437250,Stare Miasto,2,39.75,
+603,,Grunwald,,,
+604,492500,Jeżyce,2,33,Biuro nieruchomości
+605,445000,Jeżyce,1,36.6,Oferta prywatna
+606,509000,Stare Miasto,3,59.5,Biuro nieruchomości
+607,,Grunwald,2,82.86,
+608,777000,Grunwald,2,80,Oferta prywatna
+609,,Nowe Miasto,2,52.1,
+610,629000,Stare Miasto,4,68,Biuro nieruchomości
+611,,Nowe Miasto,2,39.67,
+612,429000,Stare Miasto,2,37.82,Biuro nieruchomości
+613,303100,Stare Miasto,1,27.29,Biuro nieruchomości
+614,529800,Grunwald,6,75,Biuro nieruchomości
+615,538220,Jeżyce,2,41.84,Biuro nieruchomości
+616,599254,Stare Miasto,2,42.5,Biuro nieruchomości
+617,,Jeżyce,2,73.73,
+618,429000,Wilda,3,45,Biuro nieruchomości
+619,690000,Jeżyce,3,74,Oferta prywatna
+620,620000,Grunwald,3,64,Oferta prywatna
+621,855600,Stare Miasto,1,58.17,
+622,484725,Stare Miasto,2,42.15,Biuro nieruchomości
+623,589000,Nowe Miasto,3,48,Biuro nieruchomości
+624,465000,Grunwald,2,38,Biuro nieruchomości
+625,485775,Stare Miasto,2,38.25,Biuro nieruchomości
+626,405103,Jeżyce,1,30.09,Biuro nieruchomości
+627,,Jeżyce,1,54.92,
+628,1380000,Nowe Miasto,4,80.1,Biuro nieruchomości
+629,325000,Grunwald,1,26.01,Biuro nieruchomości
+630,,Jeżyce,2,35.36,
+631,675984,Stare Miasto,3,66.26,
+632,778680,Grunwald,1,41.2,
+633,1668594,Grunwald,4,89.99,
+634,572850,Nowe Miasto,3,57,
+635,437250,Stare Miasto,2,39.75,
+636,,Grunwald,,,
+637,727592,Jeżyce,3,64.52,Biuro nieruchomości
+638,999000,Stare Miasto,2,37.11,Oferta prywatna
+639,818000,Nowe Miasto,3,55.1,Oferta prywatna
+640,901357.38,Grunwald,3,94.34,Biuro nieruchomości
+641,770000,Grunwald,3,53.19,Biuro nieruchomości
+642,,Grunwald,2,82.86,
+643,777000,Grunwald,2,80,Oferta prywatna
+644,,Nowe Miasto,2,52.1,
+645,629000,Stare Miasto,4,68,Biuro nieruchomości
+646,,Nowe Miasto,2,39.67,
+647,429000,Stare Miasto,2,37.82,Biuro nieruchomości
+648,303100,Stare Miasto,1,27.29,Biuro nieruchomości
+649,529800,Grunwald,6,75,Biuro nieruchomości
+650,538220,Jeżyce,2,41.84,Biuro nieruchomości
+651,599254,Stare Miasto,2,42.5,Biuro nieruchomości
+652,,Jeżyce,2,73.73,
+653,429000,Wilda,3,45,Biuro nieruchomości
+654,690000,Jeżyce,3,74,Oferta prywatna
+655,620000,Grunwald,3,64,Oferta prywatna
+656,855600,Stare Miasto,1,58.17,
+657,484725,Stare Miasto,2,42.15,Biuro nieruchomości
+658,589000,Nowe Miasto,3,48,Biuro nieruchomości
+659,465000,Grunwald,2,38,Biuro nieruchomości
+660,485775,Stare Miasto,2,38.25,Biuro nieruchomości
+661,405103,Jeżyce,1,30.09,Biuro nieruchomości
+662,,Jeżyce,1,54.92,
+663,1380000,Nowe Miasto,4,80.1,Biuro nieruchomości
+664,325000,Grunwald,1,26.01,Biuro nieruchomości
+665,,Jeżyce,2,35.36,
+666,675984,Stare Miasto,3,66.26,
+667,778680,Grunwald,1,41.2,
+668,1668594,Grunwald,4,89.99,
+669,901357.38,Grunwald,3,94.34,Biuro nieruchomości

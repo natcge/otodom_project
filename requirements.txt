@@ -1,0 +1,8 @@
+beautifulsoup4
+requests
+playwright
+psycopg2-binary
+python-dotenv
+SQLAlchemy
+ipykernel
+pandas

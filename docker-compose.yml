@@ -1,0 +1,43 @@
+
+
+services:
+  scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: otodom_scraper
+    working_dir: /app
+    volumes:
+      - ./:/app
+    env_file:
+      - .env
+    command: ["./wait-for-it.sh", "otodom_db:5432", "--", "python", "scrape_otodom.py"]
+
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15
+    container_name: otodom_db
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  jupyter:
+    image: jupyter/scipy-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/home/jovyan/work
+    environment:
+      - JUPYTER_TOKEN=otodom
+    depends_on:
+      - db
+volumes:
+  db_data:
