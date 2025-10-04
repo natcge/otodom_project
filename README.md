@@ -17,15 +17,17 @@ The pipeline:
 
 > **Data source:** [Otodom – Poznań apartments for sale](https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/wielkopolskie/poznan/poznan/poznan)
 
+
 ---
 
 ## Data Pipeline
 
+```mermaid
 flowchart TD
-    A[Playwright Scraper<br>(scrape_otodom.py)] -->|Extracts listings| B[(PostgreSQL DB)]
-    B -->|Query & Export| C[Jupyter Notebook<br>(analyze.ipynb)]
-    C -->|Data Cleaning<br>EDA, Visualization<br>Regression| D[Insights & output.csv]
+    A["Playwright Scraper (scrape_otodom.py)"] --> B["PostgreSQL Database"]
+    B --> C["Jupyter Notebook (analyze.ipynb)"]
 
+```
 
 ### Steps:
 1. **Scraping (scrape_otodom.py)**  
