@@ -21,12 +21,11 @@ The pipeline:
 
 ## Data Pipeline
 
-```mermaid
 flowchart TD
-    A[Playwright Scraper\n(scrape_otodom.py)] -->|Extracts listings| B[(PostgreSQL DB)]
-    B -->|Query & Export| C[Jupyter Notebook\n(analyze.ipynb)]
-    C -->|Data Cleaning\nEDA, Visualization\nRegression| D[Insights & output.csv]
-```
+    A[Playwright Scraper<br>(scrape_otodom.py)] -->|Extracts listings| B[(PostgreSQL DB)]
+    B -->|Query & Export| C[Jupyter Notebook<br>(analyze.ipynb)]
+    C -->|Data Cleaning<br>EDA, Visualization<br>Regression| D[Insights & output.csv]
+
 
 ### Steps:
 1. **Scraping (scrape_otodom.py)**  
