@@ -1,109 +1,122 @@
-# Otodom Apartaments for Sale Data Analysis - Q3 2025
+# 🏠 Otodom Apartments for Sale – Data Analysis (Q3 2025)
 
-A comprehensive analysis of apartment pricing in **Poznań (Q3 2025)**, considering **price per m², room count, district, and seller type**.  
-The project includes a **web scraper**, **database pipeline**, and a **data analysis workflow** with regression models and visualization.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-lightblue)
+![Docker](https://img.shields.io/badge/Docker-Compose-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 
----
+A **data-driven study of Poznań’s apartment market (Q3 2025)**  
+focusing on **price per m²**, **district**, **distance to city centre**, **room count**, and **seller type**.
 
-## Overview
-
-This project aims to capture and analyze the **Poznań housing market** as listed on [Otodom.pl](https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/wielkopolskie/poznan/poznan/poznan).  
-
-The pipeline:
-1. **Scrapes apartment listings** from Otodom, including both individual and **developer group listings**.
-2. **Stores** all data in a **PostgreSQL** database.
-3. Performs **data cleaning, exploration, visualization, and regression analysis** in a Jupyter Notebook.
-4. Outputs insights about **price determinants** such as district, area, seller type, and room count.
-
-> **Data source:** [Otodom – Poznań apartments for sale](https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/wielkopolskie/poznan/poznan/poznan)
-
+The project includes a **web-scraper → database pipeline → analysis workflow** with:
+- 🐍 Python + Playwright scraper  
+- 🗄️ PostgreSQL ETL pipeline  
+- 📊 District-level EDA, visualization & regression (OLS & WLS)  
+- 📈 Model evaluation & residual diagnostics
 
 ---
 
-## Data Pipeline
+## 🔑 Key Insights – Q3 2025
+> *All numbers based on ~10 pages of Poznań listings scraped in August 2025*
 
+- **Average price/m²:** ≈ **12229.79 PLN/m²** (median ≈ 12264.15 PLN/m²)  
+- **Stare Miasto** highest ≈ **14471.59 PLN/m²**, **Nowe Miasto** lowest ≈ **10424.79 PLN/m²**  
+
+---
+
+## 🗂️ Project Overview
+We scrape apartment listings from [Otodom.pl](https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/wielkopolskie/poznan/poznan/poznan), store them in **PostgreSQL**, and analyze pricing determinants to uncover **spatial & seller-driven pricing patterns**.
+
+---
+
+## 🔀 Data Pipeline
 ```mermaid
 flowchart TD
     A["Playwright Scraper (scrape_otodom.py)"] --> B["PostgreSQL Database"]
     B --> C["Jupyter Notebook (analyze.ipynb)"]
-
 ```
 
-### Steps:
-1. **Scraping (scrape_otodom.py)**  
-   - Collects 10 pages of listings for Poznań.
-   - Detects **group listings** and follows “See all listings” links.
-   - Extracts: `district`, `price`, `area (m²)`, `rooms`, `seller_type`.  
-   - Stores all records in PostgreSQL.
-
-2. **Database Layer (db.py)**  
-   - SQLAlchemy-based connection to a PostgreSQL container.
-   - Handles table creation and record insertion.
-
-3. **Analysis (analyze.ipynb)**  
-   - Connects to the database.
-   - Performs data cleaning, exploratory visualizations, and regression modeling.
-   - Outputs insights such as price/m² trends by district and seller type.
-
-4. **Containerized Environment (docker-compose.yml)**  
-   - Spins up:
-     - **PostgreSQL** (database)
-     - **Scraper** (Python + Playwright)
-     - **Jupyter Notebook** (for EDA and modeling)
-   - Ensures services start in correct order using `wait-for-it.sh`.
+1. **Scraper:** collects ~10 pages of Poznań listings, expands developer group listings  
+2. **Database Layer:** SQLAlchemy → PostgreSQL container  
+3. **Analysis:** cleaning, `price_per_sqm` feature, district & seller-type EDA, regression  
+4. **Containerized:** `docker-compose` orchestrates DB, scraper, Jupyter with `wait-for-it.sh`
 
 ---
 
-## Files
-
-| File / Folder           | Description                                                        |
-|-------------------------|--------------------------------------------------------------------|
-| `.env`                  | Environment variables (DB credentials and configs)                 |
-| `.gitignore`            | Git ignore rules                                                   |
-| `Dockerfile`            | Builds the scraper container environment                           |
-| `docker-compose.yml`    | Orchestrates scraper, database, and Jupyter containers             |
-| `wait-for-it.sh`        | Wait script to ensure DB is ready before scraper runs              |
-| `scrape_otodom.py`      | **Playwright web scraper** for Otodom listings                     |
-| `db.py`                 | Database connection & helper functions using SQLAlchemy            |
-| `analyze.ipynb`         | Main notebook for **data cleaning, visualization, and regression** |
-| `requirements.txt`      | Python dependencies for scraper and analysis                       |
-| `output.csv`            | Optional CSV export of scraped data                                |
-| `README.md`             | This documentation                                                 |
-| `.ipynb_checkpoints/`   | Auto-generated Jupyter checkpoint files                            |
-| `__pycache__/`          | Python bytecode cache                                              |
+## 📂 Project Structure
+```
+├── scrape_otodom.py        # Playwright scraper
+├── db.py                    # DB helpers (SQLAlchemy)
+├── analyze.ipynb            # Cleaning, visualization & regression
+├── docker-compose.yml
+├── requirements.txt
+├── output/                  # csv with data used in the analysis
+├── README.md
+└── .env / .gitignore / wait-for-it.sh …
+```
 
 ---
 
-## Tools & Skills
-
-- **Python 3.11**
-  - Playwright & BeautifulSoup (web scraping)
-  - Pandas, NumPy (data processing)
-  - Matplotlib, Seaborn (visualizations)
-  - Scikit-learn, Statsmodels (regression modeling & diagnostics)
-- **PostgreSQL** (data storage)
-- **SQLAlchemy** (Python–DB interface)
-- **Docker & docker-compose** (for containerized pipeline)
-- **Jupyter Notebook** (analysis and reporting)
-- **Modeling skills**: regression, multicollinearity & RESET tests
-- **Data engineering**: ETL pipeline, database integration
+## 📊 Analysis Highlights
+- **Feature engineering:** `price_per_sqm`, `distance_km` from city centre  
+- **District-level stats:** mean price/m², mean size, listing counts  
+- **Seller type analysis:** % share of **developers vs individuals** per district  
+- **Regression models:**  
+  - OLS on log(price) with `area`, `rooms`, `distance_km`, district dummies  
+  - **Weighted Least Squares** to handle heteroskedasticity  
+- **Diagnostics:** R², RMSE, residuals vs predicted, residual distribution  
 
 ---
 
-## Example Output
+## 📈 Example Visuals
 
-### Visualizations:
-- Price per m² distribution (bar chart)
-- Seller type distribution across districts
-- Predicted vs Actual Price
-- Residuals vs Predicted price
-- Residuals Distribution
-- Residuals vs Predicted log-Price (Weighted Least Squares)
-- Alternative Residual Plot
+| |
+|-|
+|<img width="1005" height="547" alt="image" src="https://github.com/user-attachments/assets/b7b72bae-8956-40e0-b734-82e86274ba81" />
+|<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/33f11648-2189-46cd-ba87-0137fe8166e3" />
+| |
 
+---
 
-## Contact
+## Key Regression Insights (OLS & WLS)
 
-📧 E-mail: **s.abilinska@gmail.com**  
+We fitted two main models to understand price determinants:
+
+| Model | Dependent Variable | R² | Key Notes |
+|-------|-------------------|----|-----------|
+| **OLS** | `price` (PLN) | **0.88** | Captures ~88% of price variation; good overall fit. |
+| **WLS** | `log_price` | **0.996** | Excellent fit after log-transforming price and applying WLS to handle heteroskedasticity. |
+
+### Important Predictors:
+- **Area (m²):** Strong positive influence on price, but with a diminishing return (negative squared-area term).
+- **District:** Central areas like **Stare Miasto (+5.0 on log-price)** and **Jeżyce (+1.5)** have substantial premiums over the baseline (Grunwald).
+- **Distance to city centre:** Statistically significant, but the sign suggests possible inverse coding or nonlinear effects — interpret cautiously.
+- **Weighted Least Squares:** Greatly improved fit (R² from 0.88 → 0.996), reducing heteroskedasticity seen in OLS residuals.
+
+### District price highlights (Q3 2025):
+- **Highest:** Stare Miasto — **≈ 14,472 PLN/m²**
+- **Lowest:** Nowe Miasto — **≈ 10,425 PLN/m²**
+- **Weighted mean:** ≈ (you can fill in after computing) PLN/m²
+- Clear spatial pattern: central districts command the highest prices.
+---
+
+## 🛠️ Tools & Skills
+- **Python 3.11** – Playwright, BeautifulSoup, Pandas, NumPy, Matplotlib, Seaborn  
+- **Statsmodels & scikit-learn** – OLS, WLS, multicollinearity, RESET tests  
+- **PostgreSQL + SQLAlchemy** – data storage & ETL  
+- **Docker & docker-compose** – containerized pipeline  
+- **Jupyter Notebook** – analysis & reporting
+
+---
+
+## ⚖️ License
+MIT License – see [LICENSE](LICENSE).
+
+---
+
+## ✉️ Contact
+📧 **s.abilinska@gmail.com**  
+💼 [LinkedIn – Natalia Bilińska](https://www.linkedin.com/in/natalia-bilińska-8874a3359)
+
 💼 LinkedIn: [www.linkedin.com/in/natalia-bilińska-8874a3359](https://www.linkedin.com/in/natalia-bilińska-8874a3359)
 
