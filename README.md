@@ -1,4 +1,4 @@
-# 🏠 Otodom Apartments for Sale – Data Analysis (Q3 2025)
+# Otodom Apartments for Sale – Data Analysis (Q3 2025)
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-lightblue)
@@ -9,14 +9,14 @@ A **data-driven study of Poznań’s apartment market (Q3 2025)**
 focusing on **price per m²**, **district**, **distance to city centre**, **room count**, and **seller type**.
 
 The project includes a **web-scraper → database pipeline → analysis workflow** with:
-- 🐍 Python + Playwright scraper  
-- 🗄️ PostgreSQL ETL pipeline  
-- 📊 District-level EDA, visualization & regression (OLS & WLS)  
-- 📈 Model evaluation & residual diagnostics
+- Python + Playwright scraper  
+- PostgreSQL ETL pipeline  
+- District-level EDA, visualization & regression (OLS & WLS)  
+- Model evaluation & residual diagnostics
 
 ---
 
-## 🔑 Key Insights – Q3 2025
+## Key Insights – Q3 2025
 > *All numbers based on ~10 pages of Poznań listings scraped in August 2025*
 
 - **Average price/m²:** ≈ **12229.79 PLN/m²** (median ≈ 12264.15 PLN/m²)  
@@ -24,12 +24,12 @@ The project includes a **web-scraper → database pipeline → analysis workflow
 
 ---
 
-## 🗂️ Project Overview
+## Project Overview
 We scrape apartment listings from [Otodom.pl](https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/wielkopolskie/poznan/poznan/poznan), store them in **PostgreSQL**, and analyze pricing determinants to uncover **spatial & seller-driven pricing patterns**.
 
 ---
 
-## 🔀 Data Pipeline
+## Data Pipeline
 ```mermaid
 flowchart TD
     A["Playwright Scraper (scrape_otodom.py)"] --> B["PostgreSQL Database"]
@@ -43,7 +43,7 @@ flowchart TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 ├── scrape_otodom.py        # Playwright scraper
 ├── db.py                    # DB helpers (SQLAlchemy)
@@ -57,10 +57,10 @@ flowchart TD
 
 ---
 
-## 📊 Analysis Highlights
+## Analysis Highlights
 - **Feature engineering:** `price_per_sqm`, `distance_km` from city centre  
-- **District-level stats:** mean price/m², mean size, listing counts  
-- **Seller type analysis:** % share of **developers vs individuals** per district  
+- **District-level stats:** 
+- **Seller type analysis:**
 - **Regression models:**  
   - OLS on log(price) with `area`, `rooms`, `distance_km`, district dummies  
   - **Weighted Least Squares** to handle heteroskedasticity  
@@ -68,7 +68,7 @@ flowchart TD
 
 ---
 
-## 📈 Example Visuals
+## Example Visuals
 
 | |
 |-|
@@ -93,14 +93,10 @@ We fitted two main models to understand price determinants:
 - **Distance to city centre:** Statistically significant, but the sign suggests possible inverse coding or nonlinear effects — interpret cautiously.
 - **Weighted Least Squares:** Greatly improved fit (R² from 0.88 → 0.996), reducing heteroskedasticity seen in OLS residuals.
 
-### District price highlights (Q3 2025):
-- **Highest:** Stare Miasto — **≈ 14,472 PLN/m²**
-- **Lowest:** Nowe Miasto — **≈ 10,425 PLN/m²**
-- **Weighted mean:** ≈ (you can fill in after computing) PLN/m²
-- Clear spatial pattern: central districts command the highest prices.
+
 ---
 
-## 🛠️ Tools & Skills
+## Tools & Skills
 - **Python 3.11** – Playwright, BeautifulSoup, Pandas, NumPy, Matplotlib, Seaborn  
 - **Statsmodels & scikit-learn** – OLS, WLS, multicollinearity, RESET tests  
 - **PostgreSQL + SQLAlchemy** – data storage & ETL  
@@ -109,14 +105,14 @@ We fitted two main models to understand price determinants:
 
 ---
 
-## ⚖️ License
+## License
 MIT License – see [LICENSE](LICENSE).
 
 ---
 
-## ✉️ Contact
-📧 **s.abilinska@gmail.com**  
-💼 [LinkedIn – Natalia Bilińska](https://www.linkedin.com/in/natalia-bilińska-8874a3359)
+## Contact
+ **s.abilinska@gmail.com**  
+ [LinkedIn – Natalia Bilińska](https://www.linkedin.com/in/natalia-bilińska-8874a3359)
 
-💼 LinkedIn: [www.linkedin.com/in/natalia-bilińska-8874a3359](https://www.linkedin.com/in/natalia-bilińska-8874a3359)
+ LinkedIn: [www.linkedin.com/in/natalia-bilińska-8874a3359](https://www.linkedin.com/in/natalia-bilińska-8874a3359)
 
