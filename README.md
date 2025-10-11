@@ -19,8 +19,23 @@ The project includes a **web-scraper → database pipeline → analysis workflow
 ## Key Insights – Q3 2025
 > *All numbers based on ~10 pages of Poznań listings scraped in August 2025*
 
-- **Average price/m²:** ≈ **12229.79 PLN/m²** (median ≈ 12264.15 PLN/m²)  
-- **Stare Miasto** highest ≈ **14471.59 PLN/m²**, **Nowe Miasto** lowest ≈ **10424.79 PLN/m²**  
+- **Average price per square meter:** ≈ **12,229.79 PLN/m²** (median ≈ **12,264.15 PLN/m²**)  
+  - Prices are relatively consistent across districts, but **Stare Miasto** commands the highest average at **≈14,471.59 PLN/m²**, while **Nowe Miasto** is the most affordable at **≈10,424.79 PLN/m²**.  
+
+- **Average apartment size:** ≈ **55.14 m²** (median ≈ **52.1 m²**)  
+  - Central districts like **Stare Miasto** and **Wilda** tend to have smaller apartments, while **Grunwald** and **Jeżyce** feature larger units.  
+
+- **Average number of rooms:** ≈ **2.45 rooms** (median **2 rooms**)  
+  - Apartments in **Nowe Miasto** and **Grunwald** generally have slightly more rooms, whereas **Stare Miasto** and **Wilda** lean toward smaller, 1–2 room layouts.  
+
+- **Listings by seller type:**  
+  - Most districts rely heavily on **real estate agencies**, especially **Nowe Miasto** (93%) and **Jeżyce** (≈90%).  
+  - **Stare Miasto** has a more balanced mix, including ~11% from developers.  
+  - **Wilda** and **Grunwald** have a significant proportion of **private offers**, particularly Wilda (~49%).  
+
+- **Market coverage & data completeness:**  
+  - Dataset contains **900 listings**, with some missing prices (722/900), room counts (898/900), area (898/900), and seller type (695/900).  
+  - Despite gaps, the data gives a solid overview of typical apartment sizes, pricing, and seller distribution in Poznań. 
 
 ---
 
@@ -73,7 +88,9 @@ flowchart TD
 | |
 |-|
 |<img width="1005" height="547" alt="image" src="https://github.com/user-attachments/assets/b7b72bae-8956-40e0-b734-82e86274ba81" />
-|<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/33f11648-2189-46cd-ba87-0137fe8166e3" />
+|<img width="1049" height="543" alt="image" src="https://github.com/user-attachments/assets/5e7c6b5f-1125-4c37-9d06-5c8a5ef24ea6" />
+|<img width="1089" height="694" alt="image" src="https://github.com/user-attachments/assets/9fc7d5bb-e7b2-4dd3-aca1-881d2e12e78b" />
+
 | |
 
 ---
