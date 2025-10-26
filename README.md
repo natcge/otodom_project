@@ -49,6 +49,7 @@ We scrape apartment listings from [Otodom.pl](https://www.otodom.pl/pl/wyniki/sp
 flowchart TD
     A["Playwright Scraper (scrape_otodom.py)"] --> B["PostgreSQL Database"]
     B --> C["Jupyter Notebook (analyze.ipynb)"]
+    C -->D["Jupyter Notebook (modeltree.ipynb)"]
 ```
 
 1. **Scraper:** collects ~10 pages of Poznań listings, expands developer group listings  
@@ -62,7 +63,8 @@ flowchart TD
 ```
 ├── scrape_otodom.py        # Playwright scraper
 ├── db.py                    # DB helpers (SQLAlchemy)
-├── analyze.ipynb            # Cleaning, visualization & regression
+├── analyze.ipynb            # Cleaning, visualization & linear regression
+├── modeltree.ipynb            # XGBoost regression
 ├── docker-compose.yml
 ├── requirements.txt
 ├── output/                  # csv with data used in the analysis
@@ -105,13 +107,7 @@ We fitted 3 main models to understand price determinants:
 | **WLS**    | `log_price`      | 0.95  | Better fit after log-transforming price and applying WLS to handle heteroskedasticity. |
 | **XGBoost**| `price` (PLN)    | 0.88  | Tree-based model captures nonlinearities and interactions automatically; strong predictive performance on original price scale (MSE ≈ 4.21e9 PLN²). |
 
-
-### Important Predictors:
-- **Area (m²):** Strong positive influence on price, but with a diminishing return (negative squared-area term).
-- **District:** Central areas like **Stare Miasto (+5.0 on log-price)** and **Jeżyce (+1.5)** have substantial premiums over the baseline (Grunwald).
-- **Distance to city centre:** Statistically significant, but the sign suggests possible inverse coding or nonlinear effects — interpret cautiously.
-- **Weighted Least Squares:** Greatly improved fit (R² from 0.88 → 0.996), reducing heteroskedasticity seen in OLS residuals.
-
+---
 
 ---
 
