@@ -22,7 +22,7 @@ The project includes a **web-scraper → database pipeline → analysis workflow
 - **Average price/m²:** ≈ **12229.79 PLN/m²** (median ≈ 12264.15 PLN/m²)  
 - **Stare Miasto** highest ≈ **14471.59 PLN/m²**, **Nowe Miasto** lowest ≈ **10424.79 PLN/m²**  
 
----
+--- 
 
 ## Project Overview
 We scrape apartment listings from [Otodom.pl](https://www.otodom.pl/pl/wyniki/sprzedaz/mieszkanie/wielkopolskie/poznan/poznan/poznan), store them in **PostgreSQL**, and analyze pricing determinants to uncover **spatial & seller-driven pricing patterns**.
@@ -78,14 +78,16 @@ flowchart TD
 
 ---
 
-## Key Regression Insights (OLS & WLS)
+## Key Regression Insights (OLS & WLS & XGBOOST)
 
-We fitted two main models to understand price determinants:
+We fitted 3 main models to understand price determinants:
 
-| Model | Dependent Variable | R² | Key Notes |
-|-------|-------------------|----|-----------|
-| **OLS** | `price` (PLN) | **0.88** | Captures ~88% of price variation; good overall fit. |
-| **WLS** | `log_price` | **0.996** | Excellent fit after log-transforming price and applying WLS to handle heteroskedasticity. |
+| Model       | Dependent Variable | R²    | Key Notes |
+|------------|------------------|-------|-----------|
+| **OLS**    | `price` (PLN)    | 0.82  | Captures ~82% of price variation; good overall fit. |
+| **WLS**    | `log_price`      | 0.95  | Better fit after log-transforming price and applying WLS to handle heteroskedasticity. |
+| **XGBoost**| `price` (PLN)    | 0.88  | Tree-based model captures nonlinearities and interactions automatically; strong predictive performance on original price scale (MSE ≈ 4.21e9 PLN²). |
+
 
 ### Important Predictors:
 - **Area (m²):** Strong positive influence on price, but with a diminishing return (negative squared-area term).
